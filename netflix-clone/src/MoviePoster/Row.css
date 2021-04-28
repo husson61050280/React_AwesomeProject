@@ -1,0 +1,45 @@
+.row {
+    margin: 10px 0;
+    margin-left: 20px;
+    color:white;
+    
+}
+
+.row__posters{
+    display: flex;
+    /* สร้าง scroll เลื่อนขึ้นมา ทำให้เลื่อนซ้ายขวาได้ */
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+}
+
+/* ทำให้ตัว scroll bar หายไป */
+.row__posters::-webkit-scrollbar {
+    display: none;
+
+}
+
+.row__poster {
+    object-fit: contain;
+    width: 100%;
+    max-height: 100px;
+    margin-right: 10px;
+    transition: transform 450ms;
+}
+
+
+.row__poster:hover {
+    cursor: pointer;
+    transform: scale(1.08);
+
+}
+
+.row__posterLarge {
+    max-height: 250px;
+}
+
+.row__posterLarge:hover {
+    cursor: pointer;
+    transform: scale(1.09);
+}
+

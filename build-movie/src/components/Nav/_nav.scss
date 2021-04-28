@@ -1,0 +1,15 @@
+@import '../../general.scss';
+
+.nav {
+    background: $blue;
+    header {
+        padding: 20px;
+    }
+}
+
+//class ของ Material UI
+.MuiAppbar-colorPrimary {
+    background: $blue !important;
+}
+
+

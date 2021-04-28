@@ -1,0 +1,12 @@
+@import '../../general.scss';
+
+.search-bar {
+    background: $white;
+    min-width: 100% !important;
+
+    input , label  {
+        margin-left: 20px;
+        margin-bottom: 20px;
+        margin-top : 10px
+    }
+}
